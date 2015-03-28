@@ -1,0 +1,29 @@
+/* line 3, ../sass/main.sass */
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+/* line 12, ../sass/main.sass */
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+/* line 15, ../sass/main.sass */
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+/* line 19, ../sass/main.sass */
+.hidden {
+  display: none; }
+
+/* line 22, ../sass/main.sass */
+header p {
+  border: 1px solid red; }
+
+/*# sourceMappingURL=main.css.map */

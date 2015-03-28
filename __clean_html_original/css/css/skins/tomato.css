@@ -1,0 +1,30 @@
+/* line 11, ../../sass/skins/tomato.sass */
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+/* line 15, ../../sass/skins/tomato.sass */
+a {
+  color: #FF6347; }
+
+/* line 18, ../../sass/skins/tomato.sass */
+p {
+  color: #888; }
+
+/* line 21, ../../sass/skins/tomato.sass */
+.color_element {
+  color: #FF6347; }
+
+/* line 23, ../../sass/skins/tomato.sass */
+.color_bg {
+  background-color: #FF6347; }
+
+/* line 25, ../../sass/skins/tomato.sass */
+.color_border {
+  border-color: #FF6347; }
+
+/* line 28, ../../sass/skins/tomato.sass */
+.main_color_bg {
+  background-color: #222; }
+
+/*# sourceMappingURL=tomato.css.map */
