@@ -41,10 +41,10 @@
 				</button>
 				<nav class="top_mnu">
 					<ul>
-						<li><span><a class='shc' href="#">About me</a></span></li>
-						<li><span><a class='shc' href="#">Resume</a></span></li>
-						<li><span><a class='shc' href="#">Portfolio</a></span></li>
-						<li><span><a class='shc' href="#">Contacts</a></span></li>
+						<li><span><a class='shc' href="#about">About me</a></span></li>
+						<li><span><a class='shc' href="#resume">Resume</a></span></li>
+						<li><span><a class='shc' href="#portfolio">Portfolio</a></span></li>
+						<li><span><a class='shc' href="#contacts">Contacts</a></span></li>
 					</ul>
 				</nav>
 			</div>
@@ -168,7 +168,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="protfolio" class="s_portfolio bg_dark">
+	<section id="portfolio" class="s_portfolio bg_dark">
 		<div class="section_header">
 			<h2>Портфолио</h2>
 		
@@ -321,20 +321,42 @@
 			<div class="section_content">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-6 col-sm-6">
 							<div class="contact_box">
-								<div class="icon-basic-geolocalize-05"></div>
+								<div class="contacts_icon icon-basic-geolocalize-05"></div>
 								<h3>Адрес:</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 							</div>
 							<div class="contact_box">
-								<div class="icon-basic-geolocalize-05"></div>
+								<div class="contacts_icon icon-basic-smartphone"></div>
 								<h3>Телефон:</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+								<p>+380 05050505</p>
+							</div>
+							<div class="contact_box">
+								<div class="contacts_icon icon-basic-webpage-img-txt"></div>
+								<h3>Веб-сайт:</h3>
+								<p><a href="http://google.ru">google.ru</a></p>
 							</div>
 						</div>
-						<div class="col-md-6">
-
+						<div class="col-md-6 col-sm-6">
+							<form action="http://formspree.io/tideee5@yandex.ru" class="main_form" novalidate method="post" target="_blank">
+								<label class="form-group">
+									<span class="color_element">*</span> Ваше имя:
+									<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required />
+									<span class="help-block text-danger"></span>
+								</label>
+								<label class="form-group">
+									<span class="color_element">*</span> Ваш E-mail:
+									<input type="email" name="email" placeholder="Ваш E-mail" data-validation-email-message="Не корректно введен E-mail" required />
+									<span class="help-block text-danger"></span>
+								</label>
+								<label class="form-group">
+									<span class="color_element">*</span> Ваше сообщение:
+									<textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение" required></textarea>
+									<span class="help-block text-danger"></span>
+								</label>
+								<button>Отправить</button>
+							</form>
 						</div>
 					</div>
 				</div>

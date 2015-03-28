@@ -47,7 +47,9 @@ $(document).ready(function() {
 		$(this).find("a").attr("href","#work_"+i);
 		$(this).find(".port_descr").attr("id","work_"+i);
 	});
+		$(".top_mnu ul a").mPageScroll2id();
 
+	$("input, select, textarea").jqBootstrapValidation();
 });
 $(window).load(function() { 
 	$(".loaderInner").fadeOut(); 
